@@ -1,0 +1,14 @@
+{
+  version: '1.0',
+  defaultSchema: 'TEST',
+  schemas: [
+    {
+      name: 'TEST',
+      type: 'custom',
+      factory: 'ParquetSchemaFactory',
+      operand: {
+        directory: '/home/marcelo/Documents/Laburo/Santander'
+      }
+    }
+  ]
+}
